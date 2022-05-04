@@ -12,74 +12,53 @@ const Footer = () => {
         <p className="mt-2 text-sm text-gray-500">Shop like a local at home</p>
       </div>
       <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+          <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">SHOP</h2>
           <nav className="list-none mb-10">
             <li>
-              <a className="text-gray-400 hover:text-white">First Link</a>
+              <a href={'Tshirts'} className="text-gray-400 hover:text-white">T-shirts</a>
             </li>
             <li>
-              <a className="text-gray-400 hover:text-white">Second Link</a>
+              <a href={'Hoodies'} className="text-gray-400 hover:text-white">Hoodies</a>
             </li>
             <li>
-              <a className="text-gray-400 hover:text-white">Third Link</a>
+              <a href={'Mugs'} className="text-gray-400 hover:text-white">Mugs</a>
             </li>
             <li>
-              <a className="text-gray-400 hover:text-white">Fourth Link</a>
+              <a href={'Stickers'} className="text-gray-400 hover:text-white">Stickers</a>
             </li>
           </nav>
         </div>
-        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+          <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">POLICY</h2>
           <nav className="list-none mb-10">
             <li>
-              <a className="text-gray-400 hover:text-white">First Link</a>
+              <a href={''} className="text-gray-400 hover:text-white">Return Policy</a>
             </li>
             <li>
-              <a className="text-gray-400 hover:text-white">Second Link</a>
+              <a href={''} className="text-gray-400 hover:text-white">Terms Of Use</a>
             </li>
             <li>
-              <a className="text-gray-400 hover:text-white">Third Link</a>
+              <a href={''} className="text-gray-400 hover:text-white">Privacy</a>
             </li>
             <li>
-              <a className="text-gray-400 hover:text-white">Fourth Link</a>
+              <a href={''} className="text-gray-400 hover:text-white">Security</a>
             </li>
           </nav>
         </div>
-        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+          <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">ABOUT</h2>
           <nav className="list-none mb-10">
             <li>
-              <a className="text-gray-400 hover:text-white">First Link</a>
+              <a href={'contact '} className="text-gray-400 hover:text-white">Contact Us</a>
             </li>
             <li>
-              <a className="text-gray-400 hover:text-white">Second Link</a>
+              <a href={''} className="text-gray-400 hover:text-white">About Us</a>
             </li>
-            <li>
-              <a className="text-gray-400 hover:text-white">Third Link</a>
-            </li>
-            <li>
-              <a className="text-gray-400 hover:text-white">Fourth Link</a>
-            </li>
+           
           </nav>
         </div>
-        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
-          <nav className="list-none mb-10">
-            <li>
-              <a className="text-gray-400 hover:text-white">First Link</a>
-            </li>
-            <li>
-              <a className="text-gray-400 hover:text-white">Second Link</a>
-            </li>
-            <li>
-              <a className="text-gray-400 hover:text-white">Third Link</a>
-            </li>
-            <li>
-              <a className="text-gray-400 hover:text-white">Fourth Link</a>
-            </li>
-          </nav>
-        </div>
+        
       </div>
     </div>
     <div className="bg-gray-800 bg-opacity-75">
